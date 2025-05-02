@@ -53,6 +53,6 @@ legend("topright", c("Sub_metering_1", "Sub_metering_2", "Sub_metering_3"), lty=
 plot(exData2$dateCol, exData2$globalReactivePower, type="l", xlab="datetime", ylab="Global_reactive_power")
 
 ## create png file
-dev.copy(png, "plot3.png",width = 480, height = 480)
+dev.copy(png, "plot4.png",width = 480, height = 480)
 dev.off()
 
